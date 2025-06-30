@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import "tailwindcss";
+
+
+@theme {
+    --color-app-text: #eeeeee;
+
+    --color-main-bg: #222831;
+
+    --font-family-sans: "Lato", "Helvetica Neue", sans-serif;
+}
+
+@layer base {
+    /* Apply default font to the whole document */
+  html {
+    font-family: var(--font-family-sans);
+  }
+}

@@ -1,15 +1,18 @@
-import Project from "./Project"
+import Project from "./Project";
+
+// Make project component pass in props
+// props will be icon, link, descrition, tools and whatever else
 
 function Projects() {
   return (
     <>
-    <div>
-        <h1>Projects (WILL BE IN INLINE GRID FORMAT)</h1>
-        <h2>project component here with props passed in</h2>
-        <h2>2nd project component here with props passed in (icon, link, descrition, tools)</h2>
-    </div>
+      <div className="text-app-text text-5xl font-bold mb-4">Projects</div>
+      <div className="flex gap-5">
+        <h2>Convertaphile</h2>
+        <h2>Atlus Navigator</h2>
+      </div>
     </>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
