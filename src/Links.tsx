@@ -1,4 +1,3 @@
-
 function Links() {
   // WILL BE AN INLINE GRID OF LINKS
   // RESUME LINK needs to attach to a certain link in gdocs that will always have my most recent resume)
