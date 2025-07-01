@@ -25,7 +25,7 @@ function Project({ image, title, description, projectLink, tools }) {
           <div className="mb-2">
             <a
               href={projectLink}
-              className="block"
+              className="inline-block"
               target="_blank"
               rel="noopener noreferrer"
             >

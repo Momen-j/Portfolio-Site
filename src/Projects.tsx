@@ -25,15 +25,13 @@ function Projects() {
           <Project
             image={Convertaphile}
             title="Convertaphile"
-            description="A Multimedia file conversion website for converting image, audio, and video files"
+            description="A multimedia file conversion website for converting image, audio, and video files"
             projectLink="https://convertaphile.com/"
             tools={[
               <SiKotlin />,
-              <SiKtor />,
               <FaReact />,
               <SiTypescript />,
-              <SiFfmpeg />,
-              <SiRedis />,
+              <FaNode />
             ]}
           />
           <Project
@@ -44,7 +42,6 @@ function Projects() {
             tools={[
               <FaNode />,
               <SiTypescript />,
-              <FaDiscord />,
               <GrDocker />,
               <FaLinux />,
               <SiPostgresql />,
