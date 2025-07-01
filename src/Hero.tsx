@@ -6,7 +6,7 @@ function Hero() {
     <>
       <div className="pb-4 text-app-text flex flex-col md:flex-row  md:justify-between gap-4 max-w-none mx-auto">
         <div className="order-2 md:order-1 flex-1">
-          <div className="text-6xl font-black pb-4">Hi, I'm Moses</div>
+          <div className="text-5xl font-black pb-4">Hi, I'm Moses</div>
           <div className="text-xl pb-4">
             I am a software developer from Boston, MA and lover of all things
             programming. <br />
@@ -51,7 +51,7 @@ function Hero() {
         </div>
 
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
-          <div className="ml-8 w-32 h-32 md:w-100 md:h-100 rounded-full overflow-hidden  shadow-lg">
+          <div className="ml-8 w-48 h-48 md:w-100 md:h-100 rounded-full overflow-hidden  shadow-lg">
             <img src={PFP} alt="PFP" className="w-full h-full object-cover" />
           </div>
         </div>
